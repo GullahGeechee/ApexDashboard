@@ -1,0 +1,71 @@
+:root {
+    --aqua: #5EE6EB;
+    --hotpink: #F900BF;
+    --black: #000000;
+    --white: #FFFFFF;
+    --purple: #9900F0;
+    --gray: #DDDDDD;
+  }
+
+html{
+    background-image: url('https://pbs.twimg.com/media/FNU2GbrXwAALAEi?format=jpg&name=large');
+}
+
+.header {
+
+    border-style: solid;
+    grid-area: header;
+}
+
+.review {
+    border-style: solid;
+    grid-area: review;
+}
+
+.rating {
+    border-style: solid;
+    grid-area: rating;
+}
+
+.analysis {
+    border-style: solid;
+    grid-area: analysis;
+
+}
+
+.visit {
+    border-style: solid;
+    grid-area: visit;
+
+}
+
+.Menu {
+    border-style: solid;
+    grid-area: menu;
+
+}
+
+.container {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'analysis visit review menu menu menu'
+    'analysis visit review menu menu menu'
+    'analysis visit review menu menu menu'
+    'rating rating rating menu menu menu'
+    'rating rating rating menu menu menu'
+    ;
+    
+    grid-gap: 10px;
+    padding: 10px;
+    height: 100vh;
+  }
+
+  .container > div {
+    background-color: var(--hotpink);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border-radius: ;
+    
+  }

@@ -1,5 +1,10 @@
 const Header = () => {
-  return <h1>Apex Player DashBoard</h1>;
+  return (
+  
+  <div className="header">
+  <h1>Apex Player DashBoard</h1></div>
+  
+  );
 };
 
 // Player Component
@@ -15,9 +20,9 @@ const Reviews = () => {
 // Square Component
 const Rating = () => {
   return (
-    <div>
-      <h4 className="rating">Top Player Ranks</h4>
-      <ul className="top-player">
+    <div className="rating">
+      <h4>Top Player Ranks</h4>
+      <ul>
         <li>Justin</li>
         <li>Eron</li>
         <li>Amad</li>
